@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 8px 0;
+	width: 100%;
+	min-height: 100%;
+	background: #F1F1F1;
+	position: relative;
+}
+
+.wrapper {
+	background: #FFF;
+	width: 970px;
+	min-height: 1930px;
+	margin: auto;
+	position: relative;
+}
+
+.header {
+	padding: 8px;
+	height: 216px;
+}
+/* Header Left */
+#header-left {
+	float: left;
+	width: 550px;
+}
+#header-image {
+	width: 150px;
+	heigth: 200px;
+	float: left;
+}
+#header-name {
+	heigth: 216px;
+	float: right;
+	padding: 15px;
+}
+#header-name h5 {
+	color: #0000a0;
+	font-weight: bold;
+}
+#header-name h6 {
+	color: #0000a0;
+	font-size: 18px;
+}
+/* Header right */
+#header-right {
+	float: right;
+	margin: auto;
+	width: 300px;
+}
+#header-right form{
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+#header-right form input{
+	margin-bottom: 10px;
+}
+#header-right form input[type='submit']{
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 35px;
+	background: #3399ff;
+	color: #fff;
+}
+#header-right form input[type='submit']:hover{
+	background: #ff80ff;
+	color: yellow;
+}
+#header-right p{
+	font-size: 17px;
+	text-align: center;
+}
+
+.menu {
+	height: 40px;
+	background: #0000ec;
+}
+.menu ul li {
+	float: left;
+	position: relative;
+	padding: 10px;
+	font-size: 14px;
+	list-style: none;
+}
+.menu ul li ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+	width: 230px;
+	background: #008040;
+	left: 0;
+	top: 40px;
+	opacity: 0.7;
+	z-index: 2;
+}
+.menu ul li:hover ul {
+	display: block;
+}
+.menu a {
+	color: #fff;
+}
+.menu button {
+	padding: 0;
+	background: #0000ec;
+	border: none;
+	color: #fff;
+}
+.menu button:hover {
+	color: yellow;
+}
+
+marquee{
+	height: 40px;
+	margin-top: 2px;
+	padding: 5px;
+	font-size: 19px;
+	font-weight: bold;
+	background: yellow;
+	color: red;
+	z-index: 1;
+}
+
+#l1 img {
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	heigt: auto;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 970px;
+	padding: 8px;
+	height:auto;
+	background: #efefef;
+	color: black;
+}
+#footer-left {
+	float: left;
+	width: 670px;
+}
+#footer-right {
+	float: right;
+	width: 160px;
+	padding: 80px 10px 10px 0;
+	color: blue;
+	font-family: arial;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration:none;
+}
